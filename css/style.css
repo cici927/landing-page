@@ -34,6 +34,9 @@ html {
 	padding: 0px 15px;
 	margin: 0 auto;
 	width: 970px;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 
 }
 .introduction {
@@ -62,4 +65,15 @@ button{
 	display: block;
 	margin: 0 auto;
 	cursor: pointer;
+}
+.cases .devices {
+	width: 33.3333333%
+	display: inline-block;
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;
+}
+.cases .devices li {
+	display: inline-block;
+	margin-left: 200px;
 }
